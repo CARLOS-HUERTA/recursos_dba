@@ -1,0 +1,18 @@
+
+--iniciamos con correo
+git config --global user.email carlos.huerta@engineer.com
+
+--creamos una carpeta para clonar nuestro proyecto
+git clone https://github.com/CARLOS-HUERTA/Programas.git
+--nos dirigimos al proyecto y ejecutamos lo sig. para todos los archivos.
+git add .
+--confirmamos la subida
+git commit -m "subiendo archivo"
+git push -u origin master
+
+------------------
+git init
+git add README.md 
+git commit -m 'comentario'
+giy remote add origin 
+git push -u origin master
